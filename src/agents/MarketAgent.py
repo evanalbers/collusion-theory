@@ -1,6 +1,8 @@
 from thesimulator import *
 import numpy as np
 
+
+
 def calculate_market_share(agent, prices, softness):
     """ calculates the market share of the given agent based on the given prices 
     Params
@@ -32,7 +34,6 @@ def calculate_market_share(agent, prices, softness):
 def resolve_transactions():
     """ Transaction resolution for each agent in """
 
-
 class MarketAgent: 
     """ Agent class representing the market where ProducerAgents transact
 
@@ -42,5 +43,13 @@ class MarketAgent:
     """
 
     softness = 0
-
     
+    def configure(self, params):
+        """ Configures the Market Agent with corresponding params"""
+
+        self.softness = float(params['softness'])
+
+        print("Softness of the market: " + str(self.softness))
+
+    def receiveMessage(self, simulation, type, payload, source):
+        """ agent behavior is defined relative to messaged received. """

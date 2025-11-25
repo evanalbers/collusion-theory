@@ -63,5 +63,5 @@ class ProducerAgent:
         """ saving parameters to agent object """
         pass
     
-    def receiveMessage(self, simulation, type, payload):
+    def receiveMessage(self, simulation, type, payload, source):
         """ agent behavior is defined relative to messaged received. """

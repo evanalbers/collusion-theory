@@ -3,7 +3,7 @@ requires = ["setuptools >= 77.0.3"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "q-learning-collusion"
+name = "collusion-theory"
 version = "0.0.1"
 authors = [
   { name="Evan Albers", email="evan.albers@reuben.ox.ac.uk" },
@@ -19,6 +19,8 @@ dependencies = [
   "numba",
   "matplotlib",
   "scipy",
+  "lxml",
+  "pybind11",
   
    
 ]
