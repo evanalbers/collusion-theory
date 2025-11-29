@@ -21,8 +21,9 @@ dependencies = [
   "scipy",
   "lxml",
   "pybind11",
-  
-   
+  "scikit-learn",
+  "h5py",
+
 ]
 description = "A package for simulating collusion in economic agents"
 readme = "README.md"

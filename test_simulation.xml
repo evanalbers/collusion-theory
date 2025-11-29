@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Simulation start="0" duration="10000">
+    
+<MarketAgent name="Market" softness="0" verbose="True" file="/Users/evaers/Documents/Repos/collusion-theory/src/agents/MarketAgent.py" num_agents="5" price_elas="1" scaling_factor="1" duration="10000" initial_quantity="100" initial_price="5" output_fp="/Users/evaers/Documents/Repos/collusion-theory/data/test_data"/>
+  <ProducerAgent file="/Users/evaers/Documents/Repos/collusion-theory/src/agents/ProducerAgent.py" name="0" market="MarketAgent" endowment="1001.8309892333779" duration="10000" output_fp="/Users/evaers/Documents/Repos/collusion-theory/data/test_data"/>
+  <ProducerAgent file="/Users/evaers/Documents/Repos/collusion-theory/src/agents/ProducerAgent.py" name="1" market="MarketAgent" endowment="1021.0002245104941" duration="10000" output_fp="/Users/evaers/Documents/Repos/collusion-theory/data/test_data"/>
+  <ProducerAgent file="/Users/evaers/Documents/Repos/collusion-theory/src/agents/ProducerAgent.py" name="2" market="MarketAgent" endowment="990.4441485071748" duration="10000" output_fp="/Users/evaers/Documents/Repos/collusion-theory/data/test_data"/>
+  <ProducerAgent file="/Users/evaers/Documents/Repos/collusion-theory/src/agents/ProducerAgent.py" name="3" market="MarketAgent" endowment="995.458699857277" duration="10000" output_fp="/Users/evaers/Documents/Repos/collusion-theory/data/test_data"/>
+  <ProducerAgent file="/Users/evaers/Documents/Repos/collusion-theory/src/agents/ProducerAgent.py" name="4" market="MarketAgent" endowment="1007.5296758739123" duration="10000" output_fp="/Users/evaers/Documents/Repos/collusion-theory/data/test_data"/>
+  </Simulation>
